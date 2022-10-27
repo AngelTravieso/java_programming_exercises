@@ -89,7 +89,37 @@ public class Programming {
         
     }
     
-    
+    // 5.  Write a Java program that takes two numbers as input and display the product of two numbers
+    public void program5() {
+     
+        System.out.println("Multiplicacion");
+        
+        System.out.print("Ingrese el primer numero: ");
+        
+        while(!console.hasNextDouble()) {
+            System.out.println("Ingrese un numero valido");
+            System.out.print("Ingrese el primer numero: ");
+            console.next();
+        }
+        
+        double num1 = Double.parseDouble(console.next());
+        
+        System.out.print("Ingrese el segundo numero: ");
+        
+        while(!console.hasNextDouble()) {
+            System.out.println("Ingrese un numero valido");
+            System.out.print("Ingrese el segundo numero: ");
+            console.next();
+        }
+        
+        double num2 = Double.parseDouble(console.next());
+        
+        System.out.println(String.format("La multiplicacion es: %s", (num1 * num2) ));
+        
+        
+        
+        
+    }
     
     
     
