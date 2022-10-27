@@ -41,6 +41,36 @@ public class Programming {
     }
     
     
+    // 3. Write a Java program to divide two numbers and print on the screen.
+    public void program3() {
+        
+        System.out.println("Division de numeros: ");
+        System.out.print("Ingrese el primer numero: ");
+        
+        while(!console.hasNextDouble()) {
+            System.out.println("Ingresa un numero valido");
+            System.out.print("Ingrese el primer numero: ");
+            console.nextLine();
+        }
+        
+        double num1 = Double.parseDouble(console.nextLine());
+        
+        System.out.print("Ingrese el segundo numero: ");
+        
+        while(!console.hasNextDouble()) {
+            System.out.println("Ingresa un numero valido");
+            System.out.print("Ingrese el segundo numero: ");
+            console.nextLine();
+        }
+        
+        double num2 = Double.parseDouble(console.nextLine());
+        
+        System.out.println(String.format("La division es: %s", ( num1 / num2) ));
+        
+        
+    }
+    
+    
     
     
     

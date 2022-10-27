@@ -9,7 +9,8 @@ public class Test {
         Programming exercises = new Programming();        
         
         // exercises.program1();
-        exercises.program2();
+        // exercises.program2();
+        exercises.program3();
         
         
     }
