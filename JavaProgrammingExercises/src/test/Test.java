@@ -8,7 +8,8 @@ public class Test {
            
         Programming exercises = new Programming();        
         
-        exercises.program1();
+        // exercises.program1();
+        exercises.program2();
         
         
     }
